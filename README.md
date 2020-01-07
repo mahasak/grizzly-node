@@ -1,4 +1,4 @@
-Grizzly - Experiment Platform Client for Node/TypeScript
+Grizzly - Experiment Platform Client for 
 ---
 
 ## Project Status
