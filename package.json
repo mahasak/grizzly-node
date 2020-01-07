@@ -1,0 +1,33 @@
+{
+  "name": "grizzly-node",
+  "version": "1.0.0",
+  "description": "Project Setup ``` npm install jest @types/jest ts-jest --save-dev ```",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahasak/grizzly-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahasak/grizzly-node/issues"
+  },
+  "homepage": "https://github.com/mahasak/grizzly-node#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "@types/source-map-support": "^0.5.0",
+    "jest": "^24.9.0",
+    "onchange": "^6.1.0",
+    "serve": "^11.3.0",
+    "source-map-support": "^0.5.16",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
+  }
+}
