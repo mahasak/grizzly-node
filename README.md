@@ -1,8 +1,5 @@
-Grizzly - Experiment Platform Client for 
+Grizzly - Experiment Platform Client for NodeJS/TypeScript
 ---
-
-## Project Status
-
 ![Build Status](https://github.com/mahasak/grizzly-node/workflows/Node%20CI/badge.svg)
 ![Coverage badge](./coverage/badge-branches.svg)
 
