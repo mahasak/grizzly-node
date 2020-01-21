@@ -34,8 +34,12 @@ export class Activator {
         return conditions.every( condition => this.check(context, condition));
     }
 
-    isEnabled( params: any, context: Context): boolean {
+    isEnabled( context: Context, params: any): boolean {
         return this.passed;
+    }
+
+    isEnabledWithConditions(context: Context, conditions: Condition[] = [],  params: any = {}): boolean {
+        return this.checkAll(context, conditions) && this.isEnabled(context, params );
     }
 
 }
