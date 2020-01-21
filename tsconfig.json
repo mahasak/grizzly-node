@@ -1,28 +1,17 @@
 {
     "compilerOptions": {
-        "rootDir": "./src",
-        "outDir": "./dist",
-        "target": "es5",
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "declaration": true,
-        "resolveJsonModule": true,
-        "strict": true,
-        "moduleResolution": "node",
-        "lib": [
-            "es5",
-            "es6"
-        ]
+      "rootDir": "./src",
+      "outDir": "./lib",
+      "lib": ["es5", "es6"],
+      "target": "es5",
+      "module": "commonjs",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "moduleResolution": "node"
     },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-        "examples/",
-        "dist/",
-        "node_modules/"
-    ]
-}
+    "exclude": ["examples/", "lib/", "node_modules/"]
+  }
+  
