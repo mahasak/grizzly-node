@@ -1,5 +1,5 @@
 import { GradualRolloutSessionIdActivator } from '../../lib/activators/gradualRolloutSessionIdActivator';
-import { normalizedValue } from '../../lib/utils/';
+import { normalizedValue } from '../../lib/utils';
 
 test('gradual-rollout-user-id strategy should have correct name', () => {
     const strategy = new GradualRolloutSessionIdActivator();
